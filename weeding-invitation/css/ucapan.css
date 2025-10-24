@@ -1,0 +1,63 @@
+/* Daftar ucapan */
+   /* Container daftar ucapan */
+    .ucapan-container {
+      width: 100%;
+      max-width: 420px;
+      background: #ffffffcc;
+      border: 2px solid #d7efff;
+      padding: 20px;
+      overflow-y: auto;
+      max-height: 350px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Card ucapan */
+    .card-ucapan {
+      background: #fff;
+      padding: 16px 18px;
+      border: 1.5px solid #d7efff;
+      margin-bottom: 12px;
+      text-align: left;
+      width: 100%;
+      max-width: 380px;
+    }
+
+    .card-ucapan h4 {
+      margin-bottom: 5px;
+      font-size: 25px;
+      font-weight: 600;
+    }
+
+    .card-ucapan p {
+      margin: 3px 0;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    .card-ucapan strong {
+      display: inline-block;
+      margin-top: 6px;
+      padding: 3px 10px;
+      background: #87cefa33;
+      border-radius: 10px;
+      color: #007acc;
+      font-size: 12px;
+    }
+
+    .section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    @media (min-width: 768px) {
+      .section {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 30px;
+      }
+    }
